@@ -27,6 +27,12 @@ gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
 
+# Devise
+gem 'devise', '~> 3.2.2'
+
+# For attr_accessible in app/models/user.rb
+gem 'protected_attributes'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
